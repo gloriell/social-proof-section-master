@@ -1,0 +1,231 @@
+@import "variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.content__wrapper {
+  font-family: $fontSpartan;
+  font-size: $fontSize;
+  display: grid;
+  grid-template-rows: repeat(2, minmax(10px, 1fr));
+  height: 100vh;
+  align-items: center;
+  justify-items: center;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    width: 80rem;
+
+    &__writing {
+      width: 28rem;
+
+      &__a {
+        color: $primaryColor;
+        padding-bottom: 0.5rem;
+        font-size: 1.5rem;
+      }
+
+      &__b {
+        color: $darkGreyMagenta;
+        width: 30rem;
+      }
+    }
+
+    &__ratings {
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+      width: 40rem;
+
+      &__a {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 3.3rem;
+        width: 31rem;
+        align-items: center;
+        justify-content: space-evenly;
+        color: $primaryColor;
+        font-weight: 700;
+        background-color: $lightGreyMagenta;
+        border-radius: 7px;
+      }
+
+      &__b {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 3.3rem;
+        width: 31rem;
+        align-items: center;
+        justify-content: space-evenly;
+        color: $primaryColor;
+        font-weight: 700;
+        background-color: $lightGreyMagenta;
+        border-radius: 7px;
+        margin-left: 3rem;
+      }
+
+      &__c {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 3.3rem;
+        width: 31rem;
+        align-items: center;
+        justify-content: space-evenly;
+        color: $primaryColor;
+        font-weight: 700;
+        background-color: $lightGreyMagenta;
+        border-radius: 7px;
+        margin-left: 6rem;
+      }
+    }
+  }
+
+  &__bottom {
+    width: 80rem;
+
+    &__testimonials {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(10px, 1fr));
+      gap: 2rem;
+
+      &__a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $primaryColor;
+        width: 23rem;
+        height: 15rem;
+        color: #fff;
+        border-radius: 10px;
+
+        &__top {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 20rem;
+          margin-bottom: 1.5rem;
+
+          img {
+            border-radius: 50%;
+            height: 3rem;
+            margin-right: 2rem;
+          }
+
+          &__text > :first-child {
+            font-weight: bold;
+            color: #fff;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+          }
+
+          &__text > :last-child {
+            color: $secondaryColor;
+            font-size: 0.8rem;
+          }
+        }
+
+        &__bottom {
+          font-size: 0.85rem;
+          width: 20rem;
+          text-align: left;
+          line-height: 1.5rem;
+        }
+      }
+
+      &__b {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $primaryColor;
+        width: 23rem;
+        height: 15rem;
+        color: #fff;
+        border-radius: 10px;
+
+        &__top {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 20rem;
+          margin-bottom: 1.5rem;
+
+          img {
+            border-radius: 50%;
+            height: 3rem;
+            margin-right: 2rem;
+          }
+
+          &__text > :first-child {
+            font-weight: bold;
+            color: #fff;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+          }
+
+          &__text > :last-child {
+            color: $secondaryColor;
+            font-size: 0.8rem;
+          }
+        }
+
+        &__bottom {
+          font-size: 0.85rem;
+          width: 20rem;
+          text-align: left;
+          line-height: 1.5rem;
+        }
+      }
+
+      &__c {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: $primaryColor;
+        width: 23rem;
+        height: 15rem;
+        color: #fff;
+        border-radius: 10px;
+
+        &__top {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          width: 20rem;
+          margin-bottom: 1.5rem;
+
+          img {
+            border-radius: 50%;
+            height: 3rem;
+            margin-right: 2rem;
+          }
+
+          &__text > :first-child {
+            font-weight: bold;
+            color: #fff;
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+          }
+
+          &__text > :last-child {
+            color: $secondaryColor;
+            font-size: 0.8rem;
+          }
+        }
+
+        &__bottom {
+          font-size: 0.85rem;
+          width: 20rem;
+          text-align: left;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+}
