@@ -14,11 +14,16 @@
   height: 100vh;
   align-items: center;
   justify-items: center;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right 20rem bottom 5rem;
 
   &__top {
     display: flex;
     justify-content: space-between;
     width: 80rem;
+    margin-top: 5rem;
 
     &__writing {
       width: 28rem;
@@ -40,6 +45,7 @@
       flex-direction: column;
       gap: 1.1rem;
       width: 40rem;
+      margin-right: 4.3rem;
 
       &__a {
         display: flex;
@@ -91,6 +97,8 @@
       display: grid;
       grid-template-columns: repeat(3, minmax(10px, 1fr));
       gap: 2rem;
+      margin-bottom: 10rem;
+      margin-right: 7rem;
 
       &__a {
         display: flex;
@@ -147,6 +155,7 @@
         height: 15rem;
         color: #fff;
         border-radius: 10px;
+        margin-top: 2rem;
 
         &__top {
           display: flex;
@@ -192,6 +201,7 @@
         height: 15rem;
         color: #fff;
         border-radius: 10px;
+        margin-top: 4rem;
 
         &__top {
           display: flex;
@@ -229,3 +239,5 @@
     }
   }
 }
+
+@import "media";

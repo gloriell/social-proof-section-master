@@ -1,0 +1,248 @@
+@media (min-width: 375px) and (max-width: 768px) {
+  .content__wrapper {
+    font-family: $fontSpartan;
+    font-size: $fontSize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url(./images/bg-pattern-top-mobile.svg),
+      url(./images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: left top, left bottom;
+
+    &__top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 0rem;
+
+      &__writing {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: 23rem;
+
+        &__a {
+          color: $primaryColor;
+          padding-bottom: 0rem;
+          font-size: 1rem;
+          width: 20rem;
+          text-align: center;
+          margin-bottom: 1.5rem;
+          margin-left: 25px;
+        }
+
+        &__b {
+          color: $darkGreyMagenta;
+          width: 23rem;
+          text-align: center;
+        }
+      }
+
+      &__ratings {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.1rem;
+        width: 0rem;
+        margin: 3rem 0 0 0;
+
+        &__a {
+          display: flex;
+          flex-direction: column-reverse;
+          height: 6rem;
+          width: 23rem;
+          align-items: center;
+          justify-content: space-evenly;
+          color: $primaryColor;
+          font-weight: 700;
+          background-color: $lightGreyMagenta;
+          border-radius: 7px;
+        }
+
+        &__b {
+          display: flex;
+          flex-direction: column-reverse;
+          height: 6rem;
+          width: 23rem;
+          align-items: center;
+          justify-content: space-evenly;
+          color: $primaryColor;
+          font-weight: 700;
+          background-color: $lightGreyMagenta;
+          border-radius: 7px;
+          margin-left: 0rem;
+        }
+
+        &__c {
+          display: flex;
+          flex-direction: column-reverse;
+          height: 6rem;
+          width: 23rem;
+          align-items: center;
+          justify-content: space-evenly;
+          color: $primaryColor;
+          font-weight: 700;
+          background-color: $lightGreyMagenta;
+          border-radius: 7px;
+          margin-left: 0rem;
+        }
+      }
+    }
+
+    &__bottom {
+      width: 0rem;
+
+      &__testimonials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0rem;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+
+        &__a {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: $primaryColor;
+          width: 23rem;
+          height: 15rem;
+          color: #fff;
+          border-radius: 10px;
+
+          &__top {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 20rem;
+            margin-bottom: 1.5rem;
+
+            img {
+              border-radius: 50%;
+              height: 3rem;
+              margin-right: 2rem;
+            }
+
+            &__text > :first-child {
+              font-weight: bold;
+              color: #fff;
+              font-size: 0.8rem;
+              margin-bottom: 0.5rem;
+            }
+
+            &__text > :last-child {
+              color: $secondaryColor;
+              font-size: 0.8rem;
+            }
+          }
+
+          &__bottom {
+            font-size: 0.85rem;
+            width: 20rem;
+            text-align: left;
+            line-height: 1.5rem;
+          }
+        }
+
+        &__b {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: $primaryColor;
+          width: 23rem;
+          height: 15rem;
+          color: #fff;
+          border-radius: 10px;
+          margin-top: 1rem;
+
+          &__top {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 20rem;
+            margin-bottom: 1.5rem;
+
+            img {
+              border-radius: 50%;
+              height: 3rem;
+              margin-right: 2rem;
+            }
+
+            &__text > :first-child {
+              font-weight: bold;
+              color: #fff;
+              font-size: 0.8rem;
+              margin-bottom: 0.5rem;
+            }
+
+            &__text > :last-child {
+              color: $secondaryColor;
+              font-size: 0.8rem;
+            }
+          }
+
+          &__bottom {
+            font-size: 0.85rem;
+            width: 20rem;
+            text-align: left;
+            line-height: 1.5rem;
+          }
+        }
+
+        &__c {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: $primaryColor;
+          width: 23rem;
+          height: 15rem;
+          color: #fff;
+          border-radius: 10px;
+          margin-top: 1rem;
+
+          &__top {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 20rem;
+            margin-bottom: 1.5rem;
+
+            img {
+              border-radius: 50%;
+              height: 3rem;
+              margin-right: 2rem;
+            }
+
+            &__text > :first-child {
+              font-weight: bold;
+              color: #fff;
+              font-size: 0.8rem;
+              margin-bottom: 0.5rem;
+            }
+
+            &__text > :last-child {
+              color: $secondaryColor;
+              font-size: 0.8rem;
+            }
+          }
+
+          &__bottom {
+            font-size: 0.85rem;
+            width: 20rem;
+            text-align: left;
+            line-height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
